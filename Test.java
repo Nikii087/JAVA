@@ -1,7 +1,7 @@
 class Student
 {
-	private int sid,rno;
-	String name1;
+	private int id,roll_no;
+	String name;
 	
 	public void getData(int sid,int rno,String name1)
 	{
