@@ -43,9 +43,9 @@ class Person extends Student
     p.setName("Nike");
     p.setRollno(4);
 
-    System.out.println("Name of student is  :"+p.getName());
+    System.out.println("Name of student is    :"+p.getName());
     System.out.println("Rollno of student is  :"+p.getRollno());
-    System.out.println("Age of student is  :"+p.getAge());
+    System.out.println("Age of student is     :"+p.getAge());
 
 
   }
