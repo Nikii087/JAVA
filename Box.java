@@ -4,17 +4,17 @@ public class Box
     private int l,h,b;
     public Box()
     {
-        l=10;
-        h=15;
-        b=20;
+        this. l=10;
+        this. h=15;
+        this. b=20;
 
     }
      //Constructor Overloading:
-    public Box(int L,int H,int B)
+    public Box(int l,int h,int b)
     {
-        l=L;
-        b=B;
-        h=H;
+       this. l=l;
+       this. b= b;
+       this. h=h;
      }
      public static void main(String[] args)
      {
@@ -23,7 +23,6 @@ public class Box
          System.out.println("Length   :"+b1.l);
          System.out.println("Height   :"+b1.h);
          System.out.println("Bradth   :"+b1.b);
-
 
          System.out.println("Length   :"+b2.l);
          System.out.println("Height   :"+b2.h);

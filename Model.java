@@ -6,8 +6,8 @@ public class Model
 
     public Model(int year, String name)
     {
-        modelYear=year;
-        modelName=name;
+        this.modelYear=year;
+        this.modelName=name;
     }
 
  public static void main(String[] args) {
