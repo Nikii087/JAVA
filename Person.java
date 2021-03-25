@@ -9,7 +9,6 @@ class Person
     {
        this.name="Nikita";
        this.email="morankarnikita099@gmail.com";
-       //System.out.println("Person Name :-"+name+ "   Person Email :-"+ email) ;
     }
 
     public Person(String name,int ssn)
