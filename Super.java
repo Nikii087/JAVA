@@ -11,6 +11,7 @@ class Animal{
     class 
     
     
+    
     Super{  
     public static void main(String args[]){  
     Dog d=new Dog();  
