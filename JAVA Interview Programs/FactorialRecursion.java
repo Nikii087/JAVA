@@ -14,6 +14,7 @@ class FactorialRecursion {
 
 	public static void main(String args[]) {
 		Fact obj = new Fact();
+		//The method fact is calling itself
     	System.out.println("Fact = " +obj.fact(5));  
     }
     
