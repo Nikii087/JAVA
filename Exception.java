@@ -13,5 +13,8 @@
         }
         System.out.println("Hey Nike");
     }
+
+    public void printStackTrace() {
+    }
     
 }
