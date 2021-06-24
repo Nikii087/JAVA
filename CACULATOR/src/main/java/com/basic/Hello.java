@@ -52,9 +52,12 @@ public class Hello extends HttpServlet {
 				{
 					c=a/b;
 				}
-				
-				response.sendRedirect("index.jsp?result="+c);
-				//out.print(c);
+				else if(request.getParameter("submit").equals("%"))
+				{
+					c=a%b;
+				}
+		
+				out.print("<h1>Result of given Numbers are :</h1> "+c);
 			}
 
 	/**
