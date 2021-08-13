@@ -9,8 +9,8 @@ class Prime
        int num = sc.nextInt();
         //set flag
         boolean isPrime=true;
-
-        for(int i=2;i<num;i++)
+        
+        for(int i=1;i<num;i++)
         {
             if(num%i==0)
             {
@@ -27,8 +27,8 @@ class Prime
         {
             System.out.println(num+ " is not prime number");
         }
-
-   
-
+        
+        
     }
+
 }

@@ -8,13 +8,13 @@ class StringReverseUsing3Ways {
         String str=sc.nextLine();
 
         String rev="";
-       /* int length=str.length();
+        int length=str.length();
         for(int i=length-1;i>=0;i--)
         {
             //charAt() extract specific character by index tsrts from 0
             rev=rev+str.charAt(i);
         }
-        System.out.println("Reverse string: "+rev);*/
+        System.out.println("Reverse string: "+rev);
 
         //Using character array
 
@@ -29,8 +29,8 @@ class StringReverseUsing3Ways {
 
         //3.Using StringBuffer Class
 
-        StringBuffer sb=new StringBuffer(str); 
-        System.out.println(sb.reverse());   
+       /* StringBuffer sb=new StringBuffer(str); 
+        System.out.println(sb.reverse()); */  
 
     }
     
